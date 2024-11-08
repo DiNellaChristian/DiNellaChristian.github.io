@@ -38,19 +38,40 @@
 	<body>
 		<header>
 			<h1>Myself</h1>
-			<table>
-				<thead>
-					<tr>
-						<th><a href="#section1">Le materie che studio</a></th>
-						<th><a href="#section2">Obiettivi e progetti futuri</a></th>
-						<th><a href="#section3">Le mie passioni</a></th>
-						<th><a href="#section4">Cristiano Ronaldo</a></th>
-						<th><a href="#section5">Potenza</a></th>
-						<th><a href="#section6">Il Potenza Calcio</a></th>
-						<th><a href="#section7">La Basilicata</a></th>
-					</tr>
-				</thead>
-			</table>
+			<nav class="navbar navbar-expand-lg bg-body-tertiary">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="#section1">Le materie che studio</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#section2">Obietivi e progetti futuri</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#section3">Le mie passioni</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#section4">Cristiano Ronaldo</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#section5">Potenza</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#section6">Il Potenza Calcio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#section7">La Basilicata</a>
+						</li>
+					</ul>
+					<form class="d-flex" role="search">
+						<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn btn-outline-success" type="submit">Ricerca</button>
+					</form>
+				</div>
+			</div>
+			</nav>
 		</header>
 		<main>
 			<p>
@@ -58,36 +79,51 @@
 				Mi chiamo Christian Di Nella, ho 16 anni e sono di Potenza, in Basilicata.<br>
 			</p>
 			
-			<table>
-				<tbody>
-					<tr>
-						<td>Attualmente sono uno studente del 4° anno all'istituto Einstein-De Lorenzo e come indirizzo ho deciso di scegliere quello di informatica.</td>
-						<td><img src="Info.png" alt="Un'immagine che rappresenta l'informatica" title="Informatica"/></td>
-						<td><br>Ho scelto il settore informatico per specializzarmi e imparare molte cose in questo campo, soprattutto perchè è stata una mia decisione e voglio realizzare il mio sogno di diventare un ottimo programmatore/ingegnere informatico.</br><br></br></td>
-					</tr>
-				</tbody>
-			</table>
+			<div class="row">
+				<div class="col">
+					Attualmente sono uno studente del 4° anno all'istituto Einstein-De Lorenzo e come indirizzo ho deciso di scegliere quello di informatica.
+				</div>
+				<div class="col">
+					<img src="Info.png" alt="Un'immagine che rappresenta l'informatica" title="Informatica"/>
+				</div>
+				<div class="col">
+					Ho scelto il settore informatico per specializzarmi e imparare molte cose in questo campo, soprattutto perchè è stata una mia decisione e voglio realizzare il mio sogno di diventare un ottimo programmatore/ingegnere informatico.
+				</div>
+			</div>
 			
-			<table style="text-align: center;">
-				<tbody>
-					<tr>
-						<td><img src="edl.png" alt="Logo dell'istituto Einstein-De Lorenzo" title="Einstein-De Lorenzo"/></td>
-						<td>Nel tempo libero mi piace uscire con gli amici, giocare ai videogiochi, andare in palestra, cucinare, passare del tempo con la mia famiglia e studiare.</td>
-						<td><img style="width: 50%" src="aula.jpg" alt="Laboratorio di informatica" title="Lab. di Informatica"/></td>
-					</tr>
-				</tbody>
-			</table>
+			<div class="row">
+				<div class="col">
+					<img src="edl.png" alt="Logo dell'istituto Einstein-De Lorenzo" title="Einstein-De Lorenzo"/>
+				</div>
+				<div class="col">
+					Nel tempo libero mi piace uscire con gli amici, giocare ai videogiochi, andare in palestra, cucinare, passare del tempo con la mia famiglia e studiare.
+				</div>
+				<div class="col">
+					<img src="aula.jpg" alt="Laboratorio di informatica" title="Lab. di Informatica"/>
+				</div>
+			</div>
 			
-			<table>
-				<tbody>
-					<tr>
-						<td><img src="studio.jpg" alt="Immagine di un libro" title="Studiare"/></td>
-						<td><img src="amici.png" alt="Degli amici che guardano il tramonto" title="Amici"/></td>
-						<td><img src="palestra.jpg" alt="Una palestra" title="Palestra"/></td>
-					</tr>
-				</tbody>
-			</table>
-			
+			<div id="carouselExample" class="carousel slide">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="studio.jpg" class="d-block w-100" alt="Immagine che rappresenta lo studio">
+					</div>
+					<div class="carousel-item">
+						<img src="amici.png" class="d-block w-100" alt="Immagine che rappresenta un gruppo di amici">
+					</div>
+					<div class="carousel-item">
+						<img src="palestra.jpg" class="d-block w-100" alt="Immagine che mostra una palestra">
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
 			<section id="section1">
 			<h2>Le materie che studio</h2>
 			<ul>
