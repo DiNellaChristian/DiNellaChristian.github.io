@@ -11,11 +11,6 @@
 				font-size:40px;
 			}
 			
-			img {
-				width:100%;
-				height:auto;
-			}
-			
 			h2 {
 				text-align:center;
 				color:red;
@@ -43,72 +38,94 @@
 	<body>
 		<header>
 			<h1>Le materie che studio, i miei obiettivi e progetti futuri</h1>
+			<nav class="navbar navbar-expand-lg bg-body-tertiary">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="#section1">Le materie che studio</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#section2">Obiettivi e progetti futuri</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#section3">Contatti</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
 		</header>
 		<main>
-			<h2>Le materie che studio</h2>
-			<ul>
-				<li>Informatica</li>
-				<li>Matematica</li>
-				<li>Italiano</li>
-				<li>TPSIT</li>
-				<li>Sistemi e Reti</li>
-				<li>Telecomunicazioni</li>
-				<li>Inglese</li>
-				<li>Storia</li>
-				<li>Educazione Fisica</li>
-				<li>Educazione Civica</li>
-			</ul>
-			
-			<h3>Obiettivi e progetti futuri</h3>
-			<table style ="border: 1px solid black;">
-				<thead>
-					<tr>
-						<th style ="border: 1px solid black";>
-							Obiettivi
-						</th>
-						<th style ="border: 1px solid black";>
-							Descrizione degli obiettivi
-						</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td style ="border: 1px solid black";>
-							Scolastici
-						</td>
-						<td style ="border: 1px solid black";>
-							Vorrei  conseguire il diploma e puntare anche alla conquista della lauea.
-						</td>
-					</tr>
-					<tr>
-						<td style ="border: 1px solid black";>
-							Personali
-						</td>
-						<td style ="border: 1px solid black";>
-							Dei miei obiettivi è quello di migliorare in palestra e poter viaggiare in giro per il mondo.
-						</td>
-					</tr>
-				</tbody>
-			</table>
-			<p>Uno dei miei progetti futuri è quello di intraprendere un progetto riguardante lo sviluppo di applicazioni. Collaborerei con i miei compagni per realizzare un modello di una app che possa essere utile in questi tempi. Attraverso esperimenti e raccolta di dati, cercherei di pubblicare una versione di prova e poi man mano svilupparla al meglio.<br>
-			Un altro progetto è l'iniziare a prepararmi per il test di ammissione all'università. Vorrei approfondire le mie conoscenze in materia informatica. Questo progetto comprende la partecipazione a corsi di preparazione, la lettura di libri consigliati e la produzione di schemi di studio. È un passo importante verso il mio futuro e voglio farmi trovare pronto.<br>
-			Infine, desidero trascorrere, in un futuro, molto tempo all'estero. Dovrei migliorare il mio inglese e imparare di più sulla cultura dei luoghi che volgio visitare, come ad esempio la Finlandia. Durante il soggiorno, esplorerei le città locali e farei nuove amicizie, condividendo momenti speciali e scoprendo nuovi punti di vista.<br>
-			Questi sono solo alcuni dei progetti che ho in mente. Ogni esperienza rappresenterebbe un'opportunità per crescere e imparare in modi nuovi!<br></p>
-			
+			<div class="container text-center">
+				<div class="row">
+					<div class="col">
+					<section id="section1">
+						<h2>Le materie che studio</h2>
+						<ul>
+							<li>Informatica</li>
+							<li>Matematica</li>
+							<li>Italiano</li>
+							<li>TPSIT</li>
+							<li>Sistemi e Reti</li>
+							<li>Telecomunicazioni</li>
+							<li>Inglese</li>
+							<li>Storia</li>
+							<li>Educazione Fisica</li>
+							<li>Educazione Civica</li>
+						</ul>
+					</div>
+				</div>
+				<section id="section2">
+				<h3>Obiettivi e progetti futuri</h3>
+				<div class="row">
+					<div class="col">
+						<table style ="border: 1px solid black;">
+							<thead>
+								<tr>
+									<th style ="border: 1px solid black";>
+										Obiettivi
+									</th>
+									<th style ="border: 1px solid black";>
+										Descrizione degli obiettivi
+									</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td style ="border: 1px solid black";>
+										Scolastici
+									</td>
+									<td style ="border: 1px solid black";>
+										Vorrei  conseguire il diploma e puntare anche alla conquista della lauea.
+									</td>
+								</tr>
+								<tr>
+									<td style ="border: 1px solid black";>
+										Personali
+									</td>
+									<td style ="border: 1px solid black";>
+										Dei miei obiettivi è quello di migliorare in palestra e poter viaggiare in giro per il mondo.
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<p>Uno dei miei progetti futuri è quello di intraprendere un progetto riguardante lo sviluppo di applicazioni. Collaborerei con i miei compagni per realizzare un modello di una app che possa essere utile in questi tempi. Attraverso esperimenti e raccolta di dati, cercherei di pubblicare una versione di prova e poi man mano svilupparla al meglio.<br>
+						Un altro progetto è l'iniziare a prepararmi per il test di ammissione all'università. Vorrei approfondire le mie conoscenze in materia informatica. Questo progetto comprende la partecipazione a corsi di preparazione, la lettura di libri consigliati e la produzione di schemi di studio. È un passo importante verso il mio futuro e voglio farmi trovare pronto.<br>
+						Infine, desidero trascorrere, in un futuro, molto tempo all'estero. Dovrei migliorare il mio inglese e imparare di più sulla cultura dei luoghi che volgio visitare, come ad esempio la Finlandia. Durante il soggiorno, esplorerei le città locali e farei nuove amicizie, condividendo momenti speciali e scoprendo nuovi punti di vista.<br>
+						Questi sono solo alcuni dei progetti che ho in mente. Ogni esperienza rappresenterebbe un'opportunità per crescere e imparare in modi nuovi!<br></p>
+					</div>
+				</div>
+			</div>
 		</main>
 		<footer>
+			<section id="section3">
 			<h5>Contatti:</h5>
-			<ul>
-				<li>
-					<strong>Telefono:</strong> +39 379	195	1353
-				</li>
-				<li>
-					<strong>Instagram:</strong> 
-					<a href="https://www.instagram.com/chry_dn_" target="_blank" class="text-white">
-					<i class="fab fa-instagram"></i> @chry_dn_
-					</a>
-				</li>
-			</ul>
+			<h6><strong>Telefono:</strong> +39 379	195	1353</h6>
+			<h6><strong>Instagram:</strong> 
+			<a href="https://www.instagram.com/chry_dn_" target="_blank" class="text-white">
+			<i class="fab fa-instagram"></i> @chry_dn_</a></h6>
 			<p>&copy; Christian Di Nella</p>
 		</footer>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
