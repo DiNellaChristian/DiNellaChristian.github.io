@@ -1,8 +1,38 @@
 h1 {
-	text-align: center;
+	text-align:center;
+	color:white;
+	background-color:black;
+	font-size:40px;
+}
+	
+img {
+		width:100%;
+		height:auto;
+}
+	
+h2 {
+	text-align:center;
+	color:red;
+	background-color:black;
+}
+			
+h3 {
+	text-align:center;
+	color:yellow;
+	background-color:black;
+}
+
+p {
+	padding: 20px;
+	text-align: justify;
+}
+			
+footer {
+	text-align:center;
+	color: white;
+	background-color:black;
 }
 
 .paragraph {
-	color:#009800;
-	background-color: #aa001f;
-}
+				text-align: center;
+			}
